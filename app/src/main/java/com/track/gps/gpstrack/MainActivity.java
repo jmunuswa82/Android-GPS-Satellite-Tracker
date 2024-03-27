@@ -227,7 +227,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     private void displaySatelliteList(String[] nmeaMessage) {
         //Displaying Satellite Information is corresponding textView
         for(int i =1; i<=llSatList.getChildCount(); i++) {
